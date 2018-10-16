@@ -18,7 +18,7 @@ class Main extends PluginBase implements Listener
     public function onEnable()
     {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        is_dir($this->getConfig()->get("path"))
+        file_exists($this->getConfig()->get("path"))
             ? $this->getLogger()->notice("棒読みちゃん-PMを読み込みました。")
             : $this->nodir();
     }
