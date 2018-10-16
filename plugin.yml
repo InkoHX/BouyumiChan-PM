@@ -1,0 +1,8 @@
+name: Bouyomi
+main: Bouyomi\Main
+api: [3.2.4, 4.0.0]
+version: 1.0.0
+prefix: BouyomiChanPM
+author: InkoHX
+website: https://twitter.com/InkoHX
+description: "プレイヤーのチャットを読み上げます。"
